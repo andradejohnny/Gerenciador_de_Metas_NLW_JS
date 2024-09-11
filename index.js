@@ -1,9 +1,13 @@
-hello word
-let mensagem = 'Hello World';
+// arrays, objetos
 
-{
-  const mensagem = "ola eu"
-  console.log(mensagem)
-}
+let meta = {
+  value: 'ler um livro por mês',
+  checked: false,
+  isChecked: () => {},
+};
 
-console.log(mensagem);
+console.log();
+meta.isChecked();
+
+//function // arrow function
+const criarMeta = () => {};
