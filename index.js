@@ -1,13 +1,18 @@
-// arrays, objetos
-
-let meta = {
-  value: 'ler um livro por mês',
-  checked: false,
-  isChecked: () => {},
+const start = () => {
+  let count = 0;
+  while (true) {
+    let opcao = 'sair';
+    switch (opcao) {
+      case 'cadastrar':
+        console.log('Vamos cadastrar');
+        break;
+      case 'listar':
+        console.log('Vamos listar');
+        break;
+      case 'sair':
+        return;
+    }
+  }
 };
 
-console.log();
-meta.isChecked();
-
-//function // arrow function
-const criarMeta = () => {};
+start();
